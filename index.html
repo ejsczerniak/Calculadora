@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Calculadora Financeira</title>
+
+  <link rel="stylesheet" href="assets/reset.css">
+  <link rel="stylesheet" href="assets/variables.css">
+  <link rel="stylesheet" href="assets/calculator.css">
+</head>
+
+<body>
+  <main class="calculator">
+    <input id="display" type="text" placeholder="R$ 0,00" />
+
+    <div class="buttons">
+      <button data-op="+">+</button>
+      <button data-op="-">-</button>
+      <button data-op="*">×</button>
+      <button data-op="/">÷</button>
+      <button id="equals">=</button>
+      <button id="clear">C</button>
+    </div>
+  </main>
+
+  <script src="js/formatCurrency.js"></script>
+  <script src="js/operations.js"></script>
+  <script src="js/validation.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
